@@ -2,7 +2,7 @@ import Rooms from "./pages/Rooms";
 
 function App() {
   return (
-    <div >
+    <div className="w-full">
       <Rooms />
     </div>
   );

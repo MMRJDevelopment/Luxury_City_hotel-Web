@@ -337,27 +337,26 @@ p {
 
 /* SLIDES ROOMS SECTION CSS START */
 
-.rooms-image{
+.rooms-image {
   height: 1000px;
   margin-bottom: -4px;
 }
 
-
 /* SLIDES ROOMS SECTION CSS END */
 
-.faci-sec{
+.faci-sec {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: #0da59d;
+  background-color: #664831;
   z-index: -1;
 }
-.faciimage{
-padding-right: 600px;
-  
+.faciimage {
+  padding-right: 600px;
+  z-index: -1;
 }
 .faci-title {
   display: flex;
@@ -365,6 +364,13 @@ padding-right: 600px;
   justify-content: start;
   gap: 26px;
   margin-bottom: 16px;
+}
+.faci-all {
+  background-color: #664831;
+  position: relative;
+  height: 728px;
+  width: 708px;
+  padding: 120px;
 }
 .faci-all::before {
   content: "";
@@ -393,19 +399,145 @@ padding-right: 600px;
   width: 100%;
 }
 
-.faci-all {
-  background-color: #f7f6f6;
-  position: relative;
-  height: 728px;
-  width: 708px;
-  padding: 120px;
-  z-index: 5;
-}
-
 .faci-all-text {
   position: absolute;
   display: flex;
   align-items: start;
   justify-content: start;
   margin-left: 800px;
+}
+.factext-p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-bottom: 16px;
+  color: #C2B0A3;
+  font-family: "Roboto", sans-serif;
+}
+
+.all-fcehedw{
+  font-size: 56px;
+  color: #C2B0A3;
+  padding-bottom: 40px;
+  font-family: "Anglecia Pro Display", sans-serif;
+}
+
+/* FACILITIES SECTION CSS END */
+
+
+
+.make-p{
+  gap: 10px;
+  padding-top: 120px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.maketext-p{
+  font-size: 14px;
+  color: #7a6f68;
+  padding-bottom: 16px;
+  margin-top: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-sh{
+  color: #21160e;
+  font-size: 56px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  font-family: "Anglecia Pro Display", sans-serif;
+
+}
+
+
+
+
+
+
+
+.make-sec {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20PX;
+  
+
+  z-index: -1;
+}
+.makeimage {
+  height: 935px;
+  width: 812px;
+  text-align: center;
+  z-index: -1;
+}
+.make-title {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 26px;
+  margin-bottom: 16px;
+}
+.make-all {
+  align-items: center;
+  justify-content: center;
+  background-color: #664831;
+  position: absolute;
+  top:350px;
+  right: -25px;
+  height: 320px;
+  width: 800px;
+  padding: 120px;
+}
+.make-all::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 2.5px;
+  border-color: #ffffff;
+  height: 100%;
+  left: 20px;
+  text-align: center;
+  z-index: -1;
+  top: -20px;
+  width: 100%;
+}
+.make-all::after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  height: 100%;
+  right: -15px;
+  text-align: center;
+  z-index: -1;
+  top: -12px;
+  width: 100%;
+}
+
+.make-all-text {
+  position: absolute;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-left: 800px;
+}
+.maketext-p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-bottom: 16px;
+  color: #C2B0A3;
+  font-family: "Roboto", sans-serif;
+}
+
+.allmake-fcehedw{
+  font-size: 56px;
+  color: #C2B0A3;
+  padding-bottom: 40px;
+  font-family: "Anglecia Pro Display", sans-serif;
 }
